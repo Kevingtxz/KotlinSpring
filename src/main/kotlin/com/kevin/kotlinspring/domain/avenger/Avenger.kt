@@ -1,6 +1,6 @@
 package com.kevin.kotlinspring.domain.avenger
 
-data class AvengerModel(
+data class Avenger(
     val id: Long? = null,
     val nick: String,
     val person: String,

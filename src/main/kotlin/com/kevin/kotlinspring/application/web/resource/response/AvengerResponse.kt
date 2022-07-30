@@ -1,6 +1,6 @@
 package com.kevin.kotlinspring.application.web.resource.response
 
-import com.kevin.kotlinspring.domain.avenger.AvengerModel
+import com.kevin.kotlinspring.domain.avenger.Avenger
 
 data class AvengerResponse(
     val id: Long?,
@@ -10,7 +10,7 @@ data class AvengerResponse(
     val history: String?
 ) {
     companion object {
-        fun from(avenger: AvengerModel) = AvengerResponse(
+        fun from(avenger: Avenger) = AvengerResponse(
             id = avenger.id,
             nick = avenger.nick,
             person = avenger.person,

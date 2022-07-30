@@ -2,7 +2,6 @@ package com.kevin.kotlinspring.application.web.resource
 
 import com.kevin.kotlinspring.application.web.resource.request.AvengerRequest
 import com.kevin.kotlinspring.application.web.resource.response.AvengerResponse
-import com.kevin.kotlinspring.domain.avenger.AvengerModel
 import com.kevin.kotlinspring.domain.avenger.AvengerRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity

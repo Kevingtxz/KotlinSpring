@@ -1,9 +1,9 @@
 package com.kevin.kotlinspring.domain.avenger
 
 interface AvengerRepository {
-    fun getAvengers(): List<AvengerModel>
-    fun getDetail(id: Long): AvengerModel?
-    fun create(avenger: AvengerModel): AvengerModel
+    fun getAvengers(): List<Avenger>
+    fun getDetail(id: Long): Avenger?
+    fun create(avenger: Avenger): Avenger
     fun delete(id: Long)
-    fun update(avenger: AvengerModel): AvengerModel
+    fun update(avenger: Avenger): Avenger
 }
